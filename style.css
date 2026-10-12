@@ -1,0 +1,144 @@
+.head
+{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    color : rgb(118, 118, 245);
+    padding-left:15px ;  
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+
+.first
+{
+    margin-top: 65px;
+    margin-bottom: 100px;
+    width: 100%;
+    background-color: rgb(118, 118, 245);
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.txt
+{
+    color:white;
+    font-weight: bold ;
+    font-size: 20px;
+}
+
+img
+{
+    width: 145px;
+    height:185px;
+    border-radius: 100%;
+}
+.skill
+{
+    display: flex;
+    box-sizing: border-box;
+    gap: 20px;
+}
+
+nav
+{
+    align-content: center;
+}
+
+a
+{
+    text-decoration-line: none;
+    gap:150px;
+    color:rgb(118, 118, 245);
+    padding-right: 50px;
+    font-weight: bolder;
+}
+
+body
+{
+    background-color: rgb(238, 238, 238);
+    margin: 0px;
+}
+
+ul
+{
+    list-style: none;
+}
+
+.main
+{
+    background-color: white;
+    margin-left: 560px;
+    margin-top: 100px;
+    border-style:hidden;
+    width: 750px;
+    border-radius: 1%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+p
+{
+    padding-left: 47px;
+    padding-right: 90px;
+}
+
+h2
+{
+    border-bottom: 3px solid #5b4bdb;
+    padding-bottom: 6px;
+    width: 700px;
+}
+
+button
+{
+    background-color: white;
+    height: 30px;
+    width: 250px;
+    margin-top: 20px;
+    border-style: dotted;
+    border-color: lightgray;
+    left: 1px;
+}
+
+.sk-button
+{
+    background-color: white;
+    height: 30px;
+    width: 100px;
+    margin-top: 5px;
+    border-style: dotted;
+    border-color: lightgray;
+    left: 1px;
+    margin-left: 10px;
+}
+
+.h-button
+{
+    background-color: white;
+    height: 30px;
+    width: 100px;
+    margin-top: 30px;
+    border-style: dotted;
+    border-color: lightgray;
+}
+
+.width
+{
+    height: 100px;
+    padding-top: 10px ;
+}
+
+.width-ed
+{
+    height: 200px;
+    padding-top: 10px ;
+}
+
+
