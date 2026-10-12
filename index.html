@@ -1,106 +1,157 @@
 <!DOCTYPE html>
-
-<html>
-
-<head lang="en">
-    <meta>
-    <meta>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
-    <title>Saida Alrowwad</title>
+    <title>Sa'ida Alrowwad</title>
 </head>
 
-<body>
-        <div class="head">
-            <h1>Sa'ida Alrowwad</h1>
-            <nav>
-                <a href="#about">About</a>
-                <a href="#skill">Skills</a>
-                <a href="#education">Education</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
-            </nav>
+<body id="body">
+
+    <header class="head">
+        <h1>Sa'ida Alrowwad</h1>
+        <nav>
+            <button type="button" class="mode" id="change" aria-label="Toggle dark mode"></button>
+            <a href="#about">About</a>
+            <a href="#skill">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="first">
+        <img class="avatar" src="assets/saida.jpg" alt="Portrait of Sa'ida Alrowwad">
+        <div class="txt">
+            <p>Sa'ida Alrowwad</p>
+            <p class="tagline">Software Engineer building clean, efficient code.</p>
+            <div class="hero-buttons">
+                <a class="h-button" href="https://github.com/salrowwa" target="_blank" rel="noopener">GitHub</a>
+                <a class="h-button" href="">LinkedIn</a>
+            </div>
         </div>
+    </section>
 
-        <div class="first">
-            <img src="assets/saida.jpg">
-            <p class="txt">
-                Sa'ida Alrowwad<br><br>
-                Software Engineering graduate and 42 Amman student, building clean and efficient code.
-                <br><br>
-                <button type="button" class="h-button" > <a href="#projects">Projects</a></button>
-                <button type="button" class="h-button">Contact</button>
-            </p>
-        </div>
+   <section class="main" id="about">
+    <h2>About Me</h2>
+    <p>
+        I'm a Software Engineering graduate from Al-Hussein Bin Talal University. 
+        I'm currently continuing my training at
+        42 Amman, where I'm at Level 4 of the Core curriculum.
+    </p>
+    <p>
+        42's project-based, peer-to-peer approach has taught me to learn by building:
+        I solve problems on my own, review others' code, and collaborate with a team
+        without traditional lectures. Combined with my academic foundation in software
+        engineering, this has strengthened my skills in C, algorithms, debugging, and
+        working with Linux and Git.
+    </p>
+    <p>
+        I care about writing clean, efficient, and readable code, and I enjoy
+        learning new tools and techniques. I'm open to internships, junior roles,
+        and collaborations on interesting projects.
+    </p>
+</section>
 
-        
-        <div class="main">
-            <h2 id="about">About Me</h2>
-                <p>
-                 I’m a Software Engineering graduate from Al-Hussein Bin Talal University, 
-                    where I finished at the top of my class. I’m now a student at 42 Amman, 
-                    currently at Level 4 of the Core curriculum. 
-                    <br><br>There I learn by building real projects, 
-                    working with peers, and solving challenging problems without traditional lectures.
-                    My academic background gave me a strong foundation in software engineering principles, 
-                    and 42 is helping me sharpen my skills in C, algorithms, debugging, and working independently. 
-                    I’m passionate about writing clean, efficient code and always looking for new things to learn.
-                    <br><br>
-                    I’m open to internships, junior roles, and collaboration on interesting projects.
-                </p>
-        </div>
+    <section class="main" id="skill">
+        <h2>Skills &amp; Technologies</h2>
 
-        <div  class="main">
-            <h2 id="skill">Skills & Technologies</h2>
-            <h3>Tools & Soft Skills</h3><br>
-                <button class="sk-button">Teamwork</buttoin>
-                <button class="sk-button">Linux</button>
-                <button class="sk-button">Git</button>
-                <button class="sk-button">GitHub</button>
-                <button class="sk-button">Debugging</button>
-                <button class="sk-button">algorithms</button>
-            <br><br>
-            <h3>Programming</h3>
-                <button class="sk-button">HTML</button>
-                <button class="sk-button">CSS</button>
-                <button class="sk-button">JAVASCRIPT</button>
-                <button class="sk-button">C</button>
+        <h3>Tools &amp; Soft Skills</h3>
+        <ul class="skills-grid">
+            <li class="sk-item">Teamwork</li>
+            <li class="sk-item">Linux</li>
+            <li class="sk-item">Git</li>
+            <li class="sk-item">GitHub</li>
+            <li class="sk-item">Debugging</li>
+            <li class="sk-item">Algorithms</li>
+        </ul>
 
-        </div>
+        <h3>Programming</h3>
+        <ul class="skills-grid">
+            <li class="sk-item">HTML</li>
+            <li class="sk-item">CSS</li>
+            <li class="sk-item">JavaScript</li>
+            <li class="sk-item">C</li>
+        </ul>
+    </section>
 
-        <div  class="main width-ed">
-            <h2 id="education">Education</h2>
-            <ul>
+    <section class="main" id="education">
+        <h2>Education</h2>
+        <ul class="edu-list">
             <li>
-            
-                    <strong>42Amman-Software Engineering</strong><br>
-                    Passed the Piscine, an intensive month long selection bootcamp.<br> 
-                    Currently in the Core curriculum at Level 4.
+                <strong>42 Amman – Software Engineering</strong>
+                <span>Passed the Piscine, an intensive month-long selection bootcamp.</span>
+                <span>Currently in the Core curriculum at Level 4.</span>
             </li>
-            <li><br></li>
             <li>
-                    <strong><a href="https://drive.google.com/file/d/1kdaKIwbJrdmJ11Wp9ZkSEDPP_ppGLGZD/view?usp=drivesdk" target="_blank">Al-Huseein Bin Talal University-Software Engineering</a></strong><br>
-                    Ranked first in class, 89.93% (GPA 3.5)
+                <strong>Al-Hussein Bin Talal University – Software Engineering</strong>
+                <span>Ranked first in class, 89.93% (GPA 3.5)</span>
             </li>
-            </ul>
-        </div>
+        </ul>
+    </section>
 
-        <div  class="main">
-            <h2 id="projects">Projects</h2>
-            <p>
-                <button><a href="https://github.com/salrowwa/cs_project00.git">Linux + Git + GitHub</a></button><br>
-                <button><a href="https://github.com/salrowwa/project01-html.git">HTML Fundamentals</a></button><br>
-                <button><a href="https://github.com/salrowwa/project02-css.git">CSS & VisualPresentation</a></button><br>
-                <button><a href="https://github.com/salrowwa/project03-JS.git">JavaScript & Interactivity</a></button><br>
-            </p>
+    <section class="main" id="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <article class="project-card">
+                <h3>Project 00</h3>
+                <p>Linux + Git + GitHub</p>
+                <a class="card-link" href="https://github.com/salrowwa/cs_project00.git" target="_blank" rel="noopener">View on GitHub</a>
+            </article>
+            <article class="project-card">
+                <h3>Project 01</h3>
+                <p>HTML Fundamentals</p>
+                <a class="card-link" href="https://github.com/salrowwa/project01-html.git" target="_blank" rel="noopener">View on GitHub</a>
+            </article>
+            <article class="project-card">
+                <h3>Project 02</h3>
+                <p>CSS &amp; Visual Presentation</p>
+                <a class="card-link" href="https://github.com/salrowwa/project02-css.git" target="_blank" rel="noopener">View on GitHub</a>
+            </article>
+            <article class="project-card">
+                <h3>Project 03</h3>
+                <p>JavaScript &amp; Interactivity</p>
+                <a class="card-link" href="https://github.com/salrowwa/project03-JS.git" target="_blank" rel="noopener">View on GitHub</a>
+            </article>
         </div>
+    </section>
 
-        <div  class="main width">
-            <h2 id="contact">Contact</h2>
-            <ul>
-            <li>Email: <a href="mailto:alrowwadsaida@gmail.com">Sa'ida Alrowwad</a></li>
-            <li>Phone Number: +962 785832900</li>
-            </ul>
-        </div>
+    <section class="main" id="hobbies">
+        <h2>Hobbies</h2>
+        <ul class="skills-grid">
+            <li class="sk-item">Building Side Projects</li>
+            <li class="sk-item">Problem Solving</li>
+            <li class="sk-item">Puzzles</li>
+        </ul>
+    </section>
+
+    <section class="main" id="contact">
+        <h2>Contact</h2>
+        <ul class="contact-info">
+            <li>Email: <a href="mailto:alrowwadsaida@gmail.com">alrowwadsaida@gmail.com</a></li>
+            <li>Phone: +962 785832900</li>
+        </ul>
+
+        <form class="contact-form" action="mailto:alrowwadsaida@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit" class="submit-btn">Send</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 Sa'ida Alrowwad. All rights reserved.</p>
+    </footer>
+
 </body>
-
 </html>
