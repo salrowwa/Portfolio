@@ -7,7 +7,7 @@ body
 {
     margin: 0;
     background-color: rgb(238, 238, 238);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
     line-height: 1.6;
     color: #222;
 }
@@ -101,22 +101,16 @@ nav
     max-width: 420px;
 }
 
-.hero-buttons
-{
-    display: flex;
-    gap: 12px;
-    margin-top: 20px;
-}
 
 .h-button
 {
-    display: inline-block;
     padding: 6px 18px;
     background-color: white;
     color: rgb(118, 118, 245);
     border: 1px dotted lightgray;
     font-size: 14px;
     font-weight: bold;
+    margin-top: 20px;
 }
 
 .main
@@ -234,7 +228,7 @@ h2
     font-weight: normal;
 }
 
-/* ======================= */
+
 body.dark-mode
 {
     background-color: #222;
@@ -314,7 +308,7 @@ body.dark-mode
         text-align: center;
     }
 
-    .hero-buttons
+    .h-button
     {
         justify-content: center;
     }
@@ -330,11 +324,6 @@ body.dark-mode
     .projects-grid
     {
         grid-template-columns: 1fr;
-    }
-
-    .head h1
-    {
-        font-size: 20px;
     }
 
     .txt
